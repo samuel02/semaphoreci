@@ -12,7 +12,7 @@ type Project struct {
 	Owner     string
 	CreatedAt string `json:"created_at"`
 	UpdatedAt string `json:"updated_at"`
-	branches  []Branch
+	Branches  []Branch
 	Client    *Client
 }
 
